@@ -2,14 +2,19 @@
 
 ## Description
 
-Cette application permet d'analyser du code source Java, de générer un graphe de couplage pondéré entre les classes et d'identifier des modules fortement couplés au sein d'une application Java. L'application produit également des statistiques sur les relations entre classes, ainsi qu'une visualisation graphique des résultats sous forme de fichiers `.dot` et `.png`.
+Cette application permet d'analyser du code source Java, de générer un graphe de couplage pondéré entre les classes et d'identifier des modules fortement couplés au sein d'une application. L'application produit également des statistiques sur les relations entre classes, ainsi qu'une visualisation graphique des résultats sous forme de fichiers `.dot` et `.png`.
 
 ## Prérequis
 
 Avant d'utiliser cette application, assurez-vous d'avoir installé les éléments suivants :
 
-- Java 11 ou une version plus récente
-- Eclipse IDE (ou tout autre IDE compatible)
+- **Java 11** ou une version plus récente
+- **Eclipse IDE** (ou tout autre IDE compatible)
+- **Graphviz** (pour la génération et la visualisation des fichiers `.dot` et `.png`).
+
+### Installation de Graphviz
+sudo apt-get install graphviz
+
 
 ## Installation
 
@@ -54,5 +59,7 @@ Exemple : `/home/utilisateur/eclipse-workspace/tp2hai913/src/main/java/tp2hai913
 ## Auteurs
 
 - Alexandre SAR
+
+
 
 
